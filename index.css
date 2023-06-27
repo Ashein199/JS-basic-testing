@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+}
+
+input {
+  border: 1px solid blue;
+  width: 50%;
+  height: 30px;
+}
+
+button {
+  margin-left: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 34px;
+}
+
+#todo-ul {
+  color: red;
+}
+li {
+  color: green;
+  font-size: large;
+}
