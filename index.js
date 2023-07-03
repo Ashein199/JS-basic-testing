@@ -23,3 +23,8 @@ function renderList() {
 
   todoUl.innerHTML = todoList;
 }
+
+const routingBtn = document.getElementById("pageRouter");
+routingBtn.addEventListener("click", function () {
+  window.location.href = "page2.html"; // Replace "page2.html" with the destination page URL
+});
